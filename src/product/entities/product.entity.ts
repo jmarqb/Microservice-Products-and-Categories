@@ -20,7 +20,7 @@ export class Product {
 
   @ApiProperty({ example: '20.5', type: 'number', description: 'Product price'})
    @Prop({
-    default:0
+    default:10
    })
     price: number;
 
